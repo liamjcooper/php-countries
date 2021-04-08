@@ -1,0 +1,29 @@
+{
+    "name": "liamjcooper/php-countries",
+    "description": "Retrieve a list of countries to make working with international applications easier.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Liam Cooper",
+            "email": "minicooper22@hotmail.co.uk"
+        }
+    ],
+    "autoload": {
+        "classmap": [
+            "src/"
+        ]
+    },
+    "autoload-dev": {
+        "classmap": [
+            "tests/"
+        ]
+    },
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.4"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9"
+    }
+}
